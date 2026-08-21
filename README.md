@@ -1,14 +1,10 @@
 # 📡 Meshwave – Decentralized Emergency Mesh Network
 
-[svg](https://github.com/your-repo/meshwave-android#-meshwave--decentralized-emergency-mesh-network)
-
 A privacy-focused, off-grid emergency communication system that enables peer-to-peer messaging when internet and cellular networks are unavailable.
 
 Meshwave uses **Bluetooth Low Energy (BLE), offline AI, end-to-end encryption, and decentralized mesh networking** to provide resilient communication during emergencies.
 
 ## 📌 Project Overview
-
-[svg](https://github.com/your-repo/meshwave-android#-project-overview)
 
 Meshwave allows nearby devices to communicate directly without relying on centralized servers or cellular infrastructure.
 
@@ -18,8 +14,6 @@ The system provides two emergency communication mechanisms:
 * 📳 **Shake2Rescue** – Gesture-based SOS broadcasting
 
 ## 🏗️ System Architecture
-
-[svg](https://github.com/your-repo/meshwave-android#️-system-architecture)
 
 ```mermaid
 flowchart LR
@@ -45,36 +39,32 @@ flowchart LR
 
 ## ⚙️ Technologies Used
 
-[svg](https://github.com/your-repo/meshwave-android#-technologies-used)
-
-### Android
+### 📱 Android
 
 * Kotlin
 * Android SDK
 * Android Studio
 * Foreground Services
 
-### AI / Speech
+### 🤖 AI / Speech
 
 * Whisper Tiny
 * TensorFlow Lite
 * Offline Speech-to-Text
 * Wake Word Detection
 
-### Networking
+### 📡 Networking
 
 * Bluetooth Low Energy (BLE)
 * Peer-to-Peer Mesh Networking
 * Tor / Arti
 
-### Security
+### 🔐 Security
 
 * Noise Protocol Framework
 * End-to-End Encryption
 
 ## 🚨 Key Features
-
-[svg](https://github.com/your-repo/meshwave-android#-key-features)
 
 ### 🎙️ Ok Mesh – Hands-Free Messaging
 
@@ -93,8 +83,6 @@ flowchart LR
 5. Mesh nodes relay the emergency message to available responders.
 
 ## 🔄 System Workflow
-
-[svg](https://github.com/your-repo/meshwave-android#-system-workflow)
 
 ```text
 User
@@ -126,8 +114,6 @@ User
 
 ## 🔐 Security & Privacy
 
-[svg](https://github.com/your-repo/meshwave-android#-security--privacy)
-
 * 🔒 End-to-end encryption using the **Noise Protocol Framework**
 * 🤖 Voice processing performed locally on the device
 * 🌐 Optional anonymity using **Tor / Arti**
@@ -135,8 +121,6 @@ User
 * 🔐 Only encrypted text is shared across the mesh
 
 ## 📁 Project Structure
-
-[svg](https://github.com/your-repo/meshwave-android#-project-structure)
 
 ```text
 meshwave-android/
@@ -158,8 +142,6 @@ meshwave-android/
 
 ## 🛠️ Setup
 
-[svg](https://github.com/your-repo/meshwave-android#️-setup)
-
 ### Clone the Repository
 
 ```bash
@@ -167,7 +149,7 @@ git clone https://github.com/your-repo/meshwave-android.git
 cd meshwave-android
 ```
 
-Open the project in **Android Studio**, add the Whisper Tiny model to:
+Open the project in **Android Studio** and add the Whisper Tiny model to:
 
 ```text
 app/src/main/assets/models/whisper-tiny.tflite
@@ -177,8 +159,6 @@ Build and install the application on a **physical Android device** for accurate 
 
 ## 🎯 Use Cases
 
-[svg](https://github.com/your-repo/meshwave-android#-use-cases)
-
 * 🌪️ Natural disasters
 * 📡 Network outages
 * 🏔️ Remote-area emergencies
@@ -186,8 +166,6 @@ Build and install the application on a **physical Android device** for accurate 
 * 🧭 Outdoor emergency situations
 
 ## 🚀 Future Enhancements
-
-[svg](https://github.com/your-repo/meshwave-android#-future-enhancements)
 
 * Offline emergency maps
 * Improved multi-hop routing
@@ -197,8 +175,6 @@ Build and install the application on a **physical Android device** for accurate 
 * Improved offline speech recognition
 
 ## 📄 License
-
-[svg](https://github.com/your-repo/meshwave-android#-license)
 
 This project is licensed under the **MIT License**.
 
